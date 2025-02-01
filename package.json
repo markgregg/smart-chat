@@ -90,5 +90,8 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "dependencies": {
+    "multi-style-input": "0.0.7"
   }
 }

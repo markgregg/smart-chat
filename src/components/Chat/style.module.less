@@ -1,38 +1,16 @@
 @import (reference) '../../util/common.less';
 
-.viewBar {
-  position: relative;
-  width: 100%;
+.chat {
   font-family: @font-family;
-
-  .viewBarInner {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    border: 1px solid @border;
-    border-radius: 3px;
-    background-color: @background;
-
-    &:hover {
-      border-color: @hover;
-    }
-
-    &:focus-within {
-      border-color: @focus;
-    }
-  }
-}
-
-.compact {
-  height: @height-compact;
-}
-
-.normal {
-  height: @height;
-}
-
-.large {
-  height: @height-large;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: @background;
+  height: 100%;
+  width: 100%;
+  padding: 4px;
 }
 
 .font-compact {

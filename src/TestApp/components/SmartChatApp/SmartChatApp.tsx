@@ -19,15 +19,15 @@ export const SmartChatApp = () => {
     ? { width: `${queryParams.width}px` }
     : undefined;
 
-  const size = queryParams.size ?? 'normal';
-
   return (
-    <div className={s.smartFilterPage}>
+    <div className={s.smartChatPage}>
       <h4>Smart Chat</h4>
-      <div className={s.filterBar} style={style}>
-        <SmartChat size={size} />
+      <div className={s.smartChat} style={style}>
+        <SmartChat
+
+        />
       </div>
- 
+
     </div>
   );
 };

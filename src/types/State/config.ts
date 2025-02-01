@@ -1,5 +1,5 @@
-import { UIProperties } from '../uiProperties';
+import { ChatSize } from "../SmartChatProps";
 
-export interface ConfigState extends UIProperties {
-
+export interface ConfigState {
+    size?: ChatSize;
 }
